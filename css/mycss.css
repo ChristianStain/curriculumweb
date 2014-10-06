@@ -1,0 +1,58 @@
+/*Arreglando mi imagen del index*/
+#img_index{
+    border-radius: 100%; 
+    border: solid 5px white;
+}
+
+/*Arreglando el padding que hacía que se moviera el nav del mini user*/
+.navbar .brand {
+    padding: 5px 17px;
+}
+
+/*Agregando los css de los skills*/
+.cpp {
+	width:70%;
+	background:#30a5dc;
+	-moz-animation:html5 2s ease-out;
+	-webkit-animation:html5 2s ease-out;
+}
+.html2 {
+	width:60%;
+	background:#f04949;
+	-moz-animation:jquery 2s ease-out;
+	-webkit-animation:jquery 2s ease-out;
+}
+.css2 {
+	width:50%;
+	background:#39d084;
+	-moz-animation:photoshop 2s ease-out;
+	-webkit-animation:photoshop 2s ease-out;
+}
+.ar {
+	width:45%;
+	background:#00979D;
+	-moz-animation:css3 2s ease-out;
+	-webkit-animation:css3 2s ease-out;
+}
+.php {
+	width:30%;
+	background:#ee742b;
+	-moz-animation:css3 2s ease-out;
+	-webkit-animation:css3 2s ease-out;
+}
+.vhdl {
+	width:30%;
+	background:#525252;
+	-moz-animation:css3 2s ease-out;
+	-webkit-animation:css3 2s ease-out;
+}
+
+/*Cambiando el color de los skills que no son los primeros 4 y modificando los tamaños de letra en caso de ser necesario*/
+#cambiavhdl{
+    background-color: #525252;
+    font-size: .9em;
+}
+
+#cambiaar{
+    background-color: #00979D;
+}
